@@ -8,6 +8,13 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> 
+  <style>
+      .mycards{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around
+      }
+  </style>
 </head>
 <body>
     <nav class="navbar navbar-expand-md navbar-light bg-light" style="margin-left: 50px; margin-top: 50px;">
@@ -190,7 +197,7 @@
                     </div>
 
                  
-                        <div class="dropdown" style="margin-left: 50px">
+                        <div class="dropdown" style="margin-left: 50px ; margin-top: 50px;" >
                           <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
                             Dropdown button
                           </button>
@@ -217,16 +224,37 @@
                           <button type="submit" class="btn btn-primary" Style="margin-top: 25px;">Submit</button>
                         </form>
                         
-                        <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 50px;">
-                          <img class="card-img-top" src="plant1.jpg" alt="Card image cap">
-                          <div class="card-body">
-                            <h5 class="card-title">Abies</h5>
-                            <p class="card-text">Best grown in rich, consistently moist, 
-                              slightly acidic, well-drained soils in full sun to part shade. Likes cool locations.</p>
-                            <a href="plant1.jpg" class="btn btn-primary">Abies Image</a>
-                          </div>
+                        <div class="mycards">
+                            <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 50px;">
+                                <img class="card-img-top" src="plant1.jpg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Abies</h5>
+                                  <p class="card-text">Best grown in rich, consistently moist, 
+                                    slightly acidic, well-drained soils in full sun to part shade. Likes cool locations.</p>
+                                  <a href="plant1.jpg" class="btn btn-primary">Abies Image</a>
+                                </div>
+                              </div>
+                          
+                              <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 50px;">
+                                  <img class="card-img-top" src="plant2.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Radish</h5>
+                                    <p class="card-text">Radishes are annual or biennial brassicaceous crops grown for their
+                                         swollen tap roots.</p>
+                                    <a href="plant2.jpg" class="btn btn-primary">Radish Image</a>
+                                  </div>
+                                </div>
+      
+                                <div class="card" style="width: 18rem; margin-left: 50px; margin-top: 50px;">
+                                  <img class="card-img-top" src="plant5.jpg" alt="Card image cap">
+                                  <div class="card-body">
+                                    <h5 class="card-title">Rain Lily</h5>
+                                    <p class="card-text">Zephyranthes is a tropical wildflower best known by the name Rain Lilies,
+                                         which was given due to their tendency to bloom after a hard rainfall.</p>
+                                    <a href="plant5.jpg" class="btn btn-primary">Rain Lily</a>
+                                  </div>
+                                </div>
                         </div>
-                    
 
 
             
